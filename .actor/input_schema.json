@@ -1,0 +1,40 @@
+{
+  "title": "Scrape data from google play store",
+  "type": "object",
+  "schemaVersion": 1,
+  "required": [
+    "run_id"
+  ],
+  "properties": {
+    "run_id": {
+      "title": "run id",
+      "description": "run_id",
+      "type": "string",
+      "default": ""
+    },
+    "method": {
+      "title": "method",
+      "description": "method",
+      "type": "string",
+      "default": "GET"
+    },
+    "path": {
+      "title": "path",
+      "description": "path",
+      "type": "string",
+      "default": "/trend"
+    },
+    "body": {
+      "title": "body",
+      "description": "body",
+      "type": "string",
+      "default": ""
+    },
+    "header": {
+      "title": "header",
+      "description": "header",
+      "type": "string",
+      "default": ""
+    }
+  }
+}
